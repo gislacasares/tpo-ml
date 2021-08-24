@@ -10,7 +10,7 @@ app.listen(3000, () => {
 
 //Listen para user app con Heroku
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Server levntado y escuchando en el port 3000");
+    console.log("Server levantado y escuchando en el port 3000");
 });
 
 //Va a servir los archivos publicos desde /img (esta es su raíz)
